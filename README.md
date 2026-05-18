@@ -25,10 +25,12 @@ El laboratorio cuenta con dos módulos experimentales:
 * **JavaScript (ES6):** Motor de física custom (`PhysicsEngine`) orientado a objetos y renderizado puramente en Canvas API.
 * **MathJax:** Integración para el renderizado analítico de fórmulas en tiempo real.
 
-## ⚙️ Instalación y Uso
+##⚙️ Installation
 
-Este proyecto no requiere dependencias de Node.js, empaquetadores ni procesos de compilación.
+Clone this repository:
 
-1. Clona este repositorio: 
-   ```bash
-   [git clone [https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git](https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git)
+```bash
+git clone https://github.com/TU_USUARIO/virtual-physics-lab-2d.git
+```
+
+Open the project folder and run `index.html` in your browser.
