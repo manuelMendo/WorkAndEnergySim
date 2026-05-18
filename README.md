@@ -31,4 +31,4 @@ Este proyecto no requiere dependencias de Node.js, empaquetadores ni procesos de
 
 1. Clona este repositorio: 
    ```bash
-   git clone [https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git](https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git)
+   [git clone [https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git](https://github.com/TU_USUARIO/laboratorio-mecanica-2d.git)
