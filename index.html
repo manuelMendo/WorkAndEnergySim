@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio Virtual de Física | Nivel Universitario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <main class="dashboard">
+        <header class="header">
+            <div class="header-titles">
+                <h1>LABORATORIO DE MECÁNICA CLÁSICA</h1>
+                <p class="subtitle">Simulador Dinámico Vectorial - Entorno 2D Interactivo</p>
+            </div>
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" id="btn-tab-1" onclick="app.setModule(1)">1. Trabajo y Fricción</button>
+                    <button class="tab-btn" id="btn-tab-2" onclick="app.setModule(2)">2. Conservación de Energía</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="grid-layout">
+            <div class="side-column">
+                <aside class="panel controls-panel">
+                    <div class="panel-header">
+                        <h2>Variables de Entrada</h2>
+                    </div>
+                    <div id="sliders-container" class="sliders-wrapper">
+                        </div>
+                    <div id="dynamic-module-controls" class="dynamic-controls">
+                        </div>
+                    <div class="actions" id="action-buttons">
+                        </div>
+                </aside>
+
+                <aside class="panel math-panel">
+                    <div class="panel-header">
+                        <h2>Análisis Analítico (LaTeX)</h2>
+                    </div>
+                    <div id="math-render" class="latex-container">
+                        Calculando parámetros...
+                    </div>
+                </aside>
+            </div>
+
+            <section class="main-simulation-area">
+                <div id="hud-superior" class="telemetria-superior">
+                    </div>
+
+                <div class="canvas-wrapper panel">
+                    <canvas id="simCanvas" width="900" height="420"></canvas>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
