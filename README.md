@@ -1,17 +1,17 @@
 # ⚡ WorkAndEnergySim
 
-Interactive physics simulator focused on work, energy, pulley systems, force analysis, and real-time mass interaction.
+Interactive physics simulator designed to visualize work, energy, force, collisions, mass interaction, and dynamic motion in real time.
 
 ## 🚀 Features
 
-- Real-time pulley physics simulation
-- Interactive bridge and vehicle system
-- Adjustable vehicle mass
-- Dynamic hanging box weights
-- Realistic rope tension mechanics
-- Work and energy calculations
-- Educational visualization for physics learning
-- Modular and scalable architecture
+- Realistic vehicle movement
+- Collision and impact simulation
+- Dynamic weight and mass system
+- Interactive object physics
+- Real-time force calculations
+- Energy transfer visualization
+- Bridge and obstacle interactions
+- Modular physics architecture
 
 ## 🧠 Physics Concepts
 
@@ -20,23 +20,25 @@ This simulator demonstrates:
 - Work
 - Kinetic Energy
 - Potential Energy
-- Newton's Laws
-- Tension Forces
-- Pulley Systems
-- Mass Interaction
-- Gravity Simulation
+- Momentum
+- Collisions
+- Newton’s Laws
+- Force Interaction
+- Gravity
+- Motion Dynamics
 
-## 🎮 Interactive Mechanics
+## 🎮 Simulation Mechanics
 
-- Add or remove weight boxes
-- Edit mass values dynamically
-- Simulate force balance
-- Observe movement based on energy transfer
-- Real-time physics reactions
+- Adjustable vehicle mass
+- Add boxes and weighted objects
+- Real-time collision response
+- Dynamic force reactions
+- Interactive movement system
+- Physics-based environment
 
-## 📚 Educational Purpose
+## 📚 Educational Goal
 
-Designed to improve physics education through visual and interactive simulations for students and teachers.
+Created to improve physics learning through interactive and visual simulations that help students understand complex mechanical concepts in a practical way.
 
 ## 🛠 Technologies
 
@@ -44,7 +46,7 @@ Designed to improve physics education through visual and interactive simulations
 - HTML5
 - CSS3
 - Physics Engine
-- Interactive UI System
+- Interactive Simulation Systems
 
 ## 📄 License
 
